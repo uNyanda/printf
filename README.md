@@ -21,7 +21,7 @@
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 ```
 
-**All test files including `main` functions are in the [tests](tests\) folder.**
+**All test files including `main` functions are in the [tests](tests/) folder.**
 
 <table>
   <tr>

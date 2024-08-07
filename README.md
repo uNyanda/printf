@@ -7,7 +7,7 @@
 
 ### Authorized functions and macros
 
-- <code><span style="color: grey;">write</span></code> (`man 2 write`)
+- <code style="color: grey;">write</code> (`man 2 write`)
 - <code><span style="color: grey;">malloc</span></code> (`man 3 malloc`)
 - <code><span style="color: grey;">free</span></code> (`man 3 free`)
 - <code><span style="color: grey;">va_start</span></code> (`man 3 va_start`)

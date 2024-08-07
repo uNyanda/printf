@@ -18,7 +18,7 @@
 ### Compilation
 
 ```bash
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 ```
 
 > [!IMPORTANT]
@@ -32,7 +32,7 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89
   </tr>
   <tr>
     <td style="text-align:center;"><code><span style="color: red;">b</span></code></td>
-    <td>the unsigned int argument is converted to binary</td>
+    <td>the unsigned integer argument is converted to binary</td>
   </tr>
   <tr>
     <td style="text-align:center;"><code><span style="color: red;">S</span></code></td>

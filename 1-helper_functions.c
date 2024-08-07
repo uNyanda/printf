@@ -16,16 +16,21 @@
 void handle_flags(const char **format, flag_t *flags, arg_data_t *data)
 {
 	int i;
+	int found_flag;
 
-	for (i = 0; flags[i].flag; i++)
-	{
-		if (flags[i].flag == **format)
+	do {
+		found_flag = 0;
+		for (i = 0; flags[i].flag; i++)
 		{
-			flags[i].f(data);
-			break;
+			if (flags[i].flag == **format)
+			{
+				flags[i].f(data);
+				(*format)++;
+				found_flag = 1;
+				break;
+			}
 		}
-	}
-	(*format)++;
+	} while (found_flag);
 }
 
 /**
